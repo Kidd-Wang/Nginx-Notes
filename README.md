@@ -2,7 +2,7 @@
 # Setup Nginx HA
 
 1. On all the instances 
-`apt isntall nginx-ha-keepalived`
+`apt install nginx-ha-keepalived`
 
 2. Setup HA IPs
 Example: Node1: 10.201.201.176; Node2: 10.201.201.177; Floating: 10.201.201.178
