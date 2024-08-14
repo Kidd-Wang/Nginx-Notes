@@ -17,12 +17,12 @@ global_defs {
 }
 
 vrrp_script chk_manual_failover {
-    script   "/usr/libexec/keepalived/nginx-ha-manual-failover"  #<<<<<!!!! HERE !!!!
+    script   "/usr/libexec/keepalived/nginx-ha-manual-failover"
     interval 10
     weight   50
 }
 
-vrrp_script chk_nginx_memory {  <<< include the shell script to check the memory usage
+vrrp_script chk_nginx_memory {  #<<< !!!! include the shell script to check the memory usage !!!!
     script   "/usr/lib/keepalived/nginx-ha-memory-check.sh"
     interval 3
     weight   50
