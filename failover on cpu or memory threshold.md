@@ -17,7 +17,7 @@ global_defs {
 }
 
 vrrp_script chk_manual_failover {
-    **script   "/usr/libexec/keepalived/nginx-ha-manual-failover"**
+    script   "/usr/libexec/keepalived/nginx-ha-manual-failover"
     interval 10
     weight   50
 }
