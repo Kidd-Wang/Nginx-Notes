@@ -1,6 +1,5 @@
 Create a shell script to check the usage of the CPU, memory etc.
 >#/usr/lib/keepalived/nginx-ha-memory-check.sh
-
 >#!/bin/bash
 
 >THRESHOLD=90
