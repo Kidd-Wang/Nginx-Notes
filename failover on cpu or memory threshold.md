@@ -10,14 +10,14 @@ else
   exit 0
 fi
 ```
-include it into the keepalived.conf file.
+Include it into the keepalived.conf file.
 ```
 global_defs {
     vrrp_version 3
 }
 
 vrrp_script chk_manual_failover {
-    script   "/usr/libexec/keepalived/nginx-ha-manual-failover"
+    **script   "/usr/libexec/keepalived/nginx-ha-manual-failover"**
     interval 10
     weight   50
 }
