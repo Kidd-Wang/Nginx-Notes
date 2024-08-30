@@ -1,4 +1,5 @@
-# Save the configuration below as nginx-plus-api.conf under /etc/nginx/conf.d/
+
+Save the configuration below as nginx-plus-api.conf under /etc/nginx/conf.d/
 
 server {
     # Conventional port for the NGINX Plus API is 8080
