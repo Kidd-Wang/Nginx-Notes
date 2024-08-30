@@ -1,9 +1,8 @@
-
 Save the configuration below as nginx-plus-api.conf under /etc/nginx/conf.d/
 
-server {
+# server {
     # Conventional port for the NGINX Plus API is 8080
-    listen 8080;
+    # listen 8080;
 
     # Uncomment to use HTTP Basic authentication; see (3) above
     #auth_basic "NGINX Plus API";
