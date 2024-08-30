@@ -38,4 +38,6 @@ Save the configuration below as nginx-plus-api.conf under /etc/nginx/conf.d/
     location /status.html {
         return 301 /dashboard.html;
     }
-}
+    }
+   
+
